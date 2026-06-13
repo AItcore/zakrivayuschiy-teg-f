@@ -32,7 +32,11 @@
   transition: fill var(--time_step) ease 0.03s;
 }
 
-.button_heart .main-body {
+.card__icon-button .contour {
+  fill: var(--heart-contour-color)
+}
+
+.card__icon-button .main-body {
   fill: transparent;
   transition: fill var(--time_step) ease 0s;
 }
