@@ -32,7 +32,7 @@
 
 .header {
   font-family: var(--accent-font);
-  font-weight: var(--text-weight);
+  font-weight: var(--title-text-weight);
   text-transform: uppercase;
   display: flex;
   justify-content: center;
@@ -46,9 +46,8 @@
 
 .header_title {
   font-size: var(--header-title-font-size);
-  font-weight: var(--text-weight);
+  font-weight: var(--title-text-weight);
   line-height: 100%;
-  margin-block-end: 20px;
 }
 
 .header_subtitle {
@@ -299,9 +298,8 @@ body:has(.floppy_dialog[open]) {
   }
 
   .header {
-    margin-top: 27vw;
-    margin-bottom: 28vw;
-    block-size: 325px;
+    padding: 125px 16px;
+    gap: 20px;
   }
 
   .header_title {
