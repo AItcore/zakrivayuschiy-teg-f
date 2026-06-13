@@ -34,7 +34,7 @@
 
 .card__icon-button .contour {
   fill: var(--heart-contour-color);
-  transition: fill var(--time-step) ease 0.03s;
+  transition: fill var(--time-step) ease 0.1s;
 }
 
 .card__icon-button .main-body {
