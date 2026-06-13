@@ -42,6 +42,8 @@
   background-color: var(--background-color);
   padding-block: 128px;
   margin-block: 103px;
+  gap: 20px;
+  inline-size: 100%;
 }
 
 .header_title {
@@ -218,11 +220,11 @@
 
 .decorated_button:focus-visible {
   outline: 2px solid var(--color);
+  box-shadow: 2px 2px 0 1px var(--color);
 }
 
 .decorated_button:focus {
   outline: none;
-  box-shadow: 2px 2px 0 1px var(--color);
 }
 
 .decorated_button:hover::before {
@@ -299,7 +301,6 @@ body:has(.floppy_dialog[open]) {
 
   .header {
     padding: 125px 16px;
-    gap: 20px;
   }
 
   .header_title {
